@@ -43,3 +43,34 @@ body {
 .robot-head-left {
   width: 125px;
 }
+
+.robot-head-left {
+  left: 44%;
+  position: absolute;
+  transform: translateX(-50%);
+  top: 14px;
+}
+
+.robot-head-right {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-44%);
+  top: 14px;
+}
+
+.robot:hover .robot-head-left {
+  position: relative;
+  left: 15em;
+  top: 2px;
+}
+
+.robot:hover .robot-head-right {
+  position: relative;
+  left: 38em;
+  top: 2px;
+}
+
+.robot:hover .robot-brain {
+  position: relative;
+  top: 5px;
+}
